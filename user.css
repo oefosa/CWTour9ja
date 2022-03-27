@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+}
+
+#content {
+  width: 50rem;
+  margin: 8rem auto;
+  border: 2px solid gray;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="text"],
+.comment {
+  padding: 1rem 0.8rem;
+  border-radius: 0.3rem;
+  margin-bottom: 2rem;
+  border: 2px solid grey;
+}
+
+.user {
+  margin-top: 2rem;
+}
+
+form button {
+  margin: 2rem 0;
+}
+
+.user-story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem auto;
+}
+
+#container {
+  display: flex;
+  margin: 5rem auto;
+}
+
+#comment {
+  margin: 1rem;
+}
+
+.story-list {
+  display: inline-block;
+  margin: 1rem auto;
+}
+
+#img_div img {
+  width: 100%;
+}
+
+#img_div {
+  width: 20rem;
+}
